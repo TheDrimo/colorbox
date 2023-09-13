@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row {
+            flex: 1;
+            display: flex;
+        }
+
+        .col {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .color-text {
+            position: absolute;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col" id="box1">
+            <span class="color-text" id="text1"></span>
+        </div>
+        <div class="col" id="box2">
+            <span class="color-text" id="text2"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" id="box3">
+            <span class="color-text" id="text3"></span>
+        </div>
+        <div class="col" id="box4">
+            <span class="color-text" id="text4"></span>
+        </div>
+    </div>
+
+    <script src="java_code.js"></script>
+</body>
+</html>
